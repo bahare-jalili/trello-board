@@ -14,7 +14,7 @@ function TrelloBoard() {
     setColumns([...columns, { title: newTitle, cards: [] }]);
   };
   return (
-    <div className="App">
+    <>
       <header className="App-header">
         <p>Trello board</p>
         <input type="text" value={newTitle} onChange={handleChange} />
@@ -23,13 +23,13 @@ function TrelloBoard() {
       <div className="row body">
         <div className="board">
           {columns.map((column, index) => (
-            <Board key={index} title={column.title}>
+            <Board key={index} id={index} title={column.title}>
               <Cards cards={column.cards} />
             </Board>
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

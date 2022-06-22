@@ -7,9 +7,11 @@ import TrelloBoard from "./TrelloBoard";
 
 function App() {
   return (
-    <BoardProvider>
-      <TrelloBoard />
-    </BoardProvider>
+    <div className="App">
+      <BoardProvider>
+        <TrelloBoard />
+      </BoardProvider>
+    </div>
   );
 }
 
