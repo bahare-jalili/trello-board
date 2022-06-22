@@ -22,4 +22,3 @@ Features i could and liked to add but i did'nt have more time:
 6. Drag & drop feature
 7. Use push notifications and alerts
 8. Complete registration of cards (i just considered title and dueDate for cards)
-9. Lots of other features...
