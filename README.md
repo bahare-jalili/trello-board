@@ -10,7 +10,7 @@ How to run the app:
 Added extra features:
 
 1. User is able to remove columns
-2. I wrote a simple test with puppeteer. you should go to the "e2e" folder and set the "executablePath" to your accessible browser's executable file in the "e2e.test.js". for example, my path to run test in firefox was "C:/Program Files (x86)/Mozilla Firefox/firefox.exe". then you can run the test by run "npm run e2e". if the test was successful, you can see a screenshot of the last transaction in e2e folder.
+2. I wrote a simple test with puppeteer. If you have linux OS, you should go to the "e2e" folder and comment the "executablePath" in the "e2e.test.js", but if you have windows OS, set it to the path of your accessible browser's executable file. for example, my path to run test in firefox was "C:/Program Files (x86)/Mozilla Firefox/firefox.exe". then you can run the test by run "npm run e2e". if the test was successful, you can see a screenshot of the last transaction in e2e folder.
 
 Features i could and liked to add but i did'nt have more time:
 
