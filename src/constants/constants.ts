@@ -1,0 +1,16 @@
+export enum constants {
+    TRELLO_BOARD = "Trello board",
+    CREATE_NEW_COLUMN = "create new column",
+    PLEASE_FILL_ALL_FIELDS = "please fill all fields",
+    TITLE = "title",
+    DUE_DATE = 'due date',
+    EDIT = "edit",
+    MOVE = "move",
+    ADD_CARD = "add card",
+    REMOVE_COLUMN = "remove column",
+    COLUMNS = "columns",
+    CLOSE = "Close",
+    SUBMIT = "Submit",
+    LOADING = "Loading...",
+    PLEASE_SELECT_COLUMN = "please select a column",
+}

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./Modal.css";
+import { constants } from "../constants/constants";
 
 const Modal = (props) => {
   const closeOnEscapeKeyDown = (e) => {
@@ -29,11 +30,11 @@ const Modal = (props) => {
         </div>
         <div className="modal-body">{props.children}</div>
         <div className="modal-footer">
-          <button onClick={props.onClose} className="button">
-            Close
+          <button id="closeDialog" onClick={props.onClose} className="button">
+            {constants.CLOSE}
           </button>
-          <button onClick={props.onSubmit} className="button">
-            Submit
+          <button id="submitCard" onClick={props.onSubmit} className="button">
+            {constants.SUBMIT}
           </button>
         </div>
       </div>
@@ -41,4 +42,4 @@ const Modal = (props) => {
   );
 };
 
-export default Modal;
+export default React.memo(Modal);

@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import Board from "./Board";
-import { BoardProvider } from "./BoardProvider";
-import Cards from "./Cards";
-import TrelloBoard from "./TrelloBoard";
+import Board from "./components/Board";
+import { BoardProvider } from "./contextApi/BoardProvider";
+import Cards from "./components/Cards";
+import TrelloBoard from "./components/TrelloBoard";
 
 function App() {
   return (
