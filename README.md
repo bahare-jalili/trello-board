@@ -3,7 +3,7 @@
 How to run the app:
 
 1. Clone the repository
-2. cd to simple-trello folder
+2. cd to trello-board folder
 3. Run "npm install" (you should have node v16.15.1)
 4. Run "npm start"
 
